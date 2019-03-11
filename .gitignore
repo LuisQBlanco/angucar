@@ -1,6 +1,7 @@
 *.pyc
 __pycache__
 angucar/.vscode
+.vscode
 .venv
 angucar/*.sqlite3
 angucar/backend

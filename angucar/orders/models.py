@@ -12,4 +12,4 @@ class Order(models.Model):
     phone = models.CharField(max_length=100)
     email = models.EmailField()
     card_number = models.CharField(max_length=16)
-    card_date = models.CharField(max_length=10)
+    card_date = models.CharField(max_length=15)
